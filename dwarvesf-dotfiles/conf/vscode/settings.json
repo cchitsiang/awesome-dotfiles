@@ -1,0 +1,175 @@
+{
+    "explorer.confirmDelete": true,
+    "explorer.openEditors.visible": 0,
+    "editor.fontFamily": "Dank Mono, Inconsolata",
+    // "editor.fontFamily": "Inconsolata",
+    // "editor.fontFamily": "Iosevka-light",
+    // "editor.fontFamily": "Operator Mono",
+    // "editor.fontFamily": "FuraCode Nerd Font",
+    // "editor.fontFamily": "Hasklig",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 24,
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
+    "editor.renderControlCharacters": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 160,
+    "editor.wrappingIndent": "indent",
+    "editor.mouseWheelZoom": false,
+    "editor.insertSpaces": true,
+    "editor.renderLineHighlight": "all",
+    "editor.cursorBlinking": "solid",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    // auto update extension
+    "extensions.autoUpdate": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.associations": {
+        // "*.yml": "ansible",
+        "Jenkinsfile": "groovy",
+        "*.js": "javascriptreact",
+        "*.jsx": "javascriptreact",
+        "*.vue": "vue"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".history/**": true
+    },
+    // language specific settings
+    // go
+    "[go]": {
+        "editor.formatOnSave": true
+    },
+    "go.autocompleteUnimportedPackages": true,
+    "go.lintTool": "revive",
+    // js
+    "javascript.validate.enable": false,
+    "javascript.implicitProjectConfig.checkJs": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": false
+    },
+    "[clojure]": {
+        "editor.wordSeparators": "\t ()\"':,;~@#$%^&{}[]`",
+        "editor.formatOnSave": true,
+        "editor.autoIndent": false,
+        "editor.formatOnPaste": true
+    },
+    // custom rules for [Clojure] because "Night Owl" theme doesn't have good support
+    // https://github.com/sdras/night-owl-vscode-theme/issues/126
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "constant.keyword.clojure",
+                "settings": { "foreground": "#7fdbca" }
+            },
+            {
+                "scope": "keyword.control.clojure",
+                "settings": { "fontStyle": "italic", "foreground": "#c792eaff" }
+            },
+            {
+                "scope": "constant.language.nil.clojure",
+                "settings": { "foreground": "#ff5874" }
+            },
+        ]
+    },
+    // html
+    "html.format.wrapAttributes": "force",
+    // eslint
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "prettier.eslintIntegration": true,
+    "prettier.trailingComma": "es5",
+    "prettier.singleQuote": true,
+    // html
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "window.zoomLevel": 0,
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.projectDetection.disableDetect": true,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "vscode-icons",
+    // confirm when click on the sync icon on status bar
+    "git.confirmSync": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.25,
+    "sync.gist": "711b8ab5e7a9bfbd9b5a6e1852b99107",
+    "sync.lastUpload": "2018-07-25T08:06:05.562Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "2018-02-16T17:46:58.801Z",
+    "sync.forceDownload": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.askGistName": false,
+    "sync.quietSync": false,
+    "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+    "gitProjectManager.openInNewWindow": true,
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "gitProjectManager.baseProjectsFolders": [
+        "~/src"
+    ],
+    "extensions.ignoreRecommendations": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": false,
+    "window.newWindowDimensions": "maximized",
+    "window.clickThroughInactive": false,
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "newUntitledFile",
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "breadcrumbs.enabled": true
+}

@@ -1,0 +1,60 @@
+[
+  // Place your key bindings in this file to overwrite the defaults
+  {
+    "key": "f1",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+k g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "f",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "d",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+0",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "extension.jumpy-word",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+cmd+enter",
+    "command": "extension.jumpy-line",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "extension.ntcCssVar",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+cmd+\\",
+    "command": "workbench.action.quickOpenTerm"
+  }
+]

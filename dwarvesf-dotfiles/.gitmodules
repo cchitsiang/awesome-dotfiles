@@ -1,0 +1,24 @@
+[submodule "rbenv"]
+  path = vendor/rbenv
+  url = https://github.com/sstephenson/rbenv.git
+[submodule "git-extras"]
+  path = vendor/git-extras
+  url = https://github.com/visionmedia/git-extras.git
+[submodule "z"]
+  path = vendor/z
+  url = https://github.com/rupa/z.git
+[submodule "prezto"]
+  path = vendor/prezto
+  url = git://github.com/sorin-ionescu/prezto.git
+[submodule "zsh-syntax-highlighting"]
+	path = vendor/zsh-syntax-highlighting
+	url = git://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "gh"]
+	path = vendor/gh
+	url = git@github.com:jdxcode/gh.git
+[submodule ".tmux"]
+  path = vendor/.tmux
+  url = https://github.com/gpakosz/.tmux.git
+[submodule ".tmux-tpm"]
+  path = link/.tmux/plugins/tpm
+  url = https://github.com/tmux-plugins/tpm.git
